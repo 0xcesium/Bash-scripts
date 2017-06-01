@@ -1,5 +1,5 @@
 #!/bin/bash
-# Jimmy Billaud - V3:27/05/2016
+# Jimmy B. - V3:27/05/2016
 #
 # Variable fondamentale : entrée
 #
@@ -84,16 +84,6 @@ traitement() {
                  printf "\33[44mLa ligne n'a pas été trouvée.\33[0m\n"
                  exit 0
         else
-#
-cat <<FDT
-_____________________________________________
-         ______ ____  __ _____ _____
-        /   ___/    |/ /  ___/  ___/
-       __\_   /  /|   /  /__   ___/
-      /______/__/ |__/_____/__/
-_____________________________________________
-
-FDT
 # Suppression de la ligne indiquée
                 sed -i "$toSuppd" $lKH
                 echo -e "\033[41mLa ligne a été supprimée.\033[0m"

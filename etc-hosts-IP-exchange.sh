@@ -2,7 +2,7 @@
 #
 # UPDATE THE IP OF A MACHINE IN ETC/HOSTS
 #
-# eg : ./hmodif.sh MACHINE-NAME 10.10.10.10
+# eg : ./etc-hosts-IP-exchange.sh MACHINE-NAME 10.10.10.10
 #
 # S'assurer de lancer le script avec sudo.
 # Be sure to run it within root privileges.

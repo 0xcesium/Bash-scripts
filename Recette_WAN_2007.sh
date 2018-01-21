@@ -1,5 +1,5 @@
 #!/bin/bash
-# Jimmy B. - V3:25/05/2016
+# - V3:25/05/2016
 #
 chmod +x */Recette_WAN_2007_1.sh
 echo "Saisissez l'adresse IP:"

@@ -38,31 +38,6 @@ cat <<EOT
                 Noter cette ligne.
         2)      Utiliser ce numéro de ligne comme argument à ce script.
 
-        Exemple:
-
-        1       $ ssh <username>@<equipement>
-        2       $ rebond@XROLMWBIMFQ:~$ ssh user@CLM-0288
-                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-                @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
-                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-                IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
-                Someone could be eavesdropping on you right now (man-in-the-middle attack)!
-                It is also possible that a host key has just been changed.
-                The fingerprint for the RSA key sent by the remote host is
-                5a:91:34:63:54:a0:90:18:ed:18:24:ff:4a:3d:63:15.
-                Please contact your system administrator.
-                Add correct host key in /home/rebond/.ssh/known_hosts to get rid of this message
-        >>>>>>  Offending RSA key in /home/rebond/.ssh/known_hosts:1418
-                RSA host key for clm-0288 has changed and you have requested strict checking.
-                Host key verification failed.
-        3       $ regulrsa 1418
-        4       $ La ligne a été supprimée.
-        5       $ --> Connexion à l'équipement :
-        6       $ ------------------------------
-        7       $ Equipement (nom d'hote ou IP) :
-        8       $ [...]
-        9       $ Login :
-        10      $ [...]
 
 ____________________________________________________________________________________________________
 

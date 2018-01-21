@@ -1,5 +1,5 @@
 #!/bin/bash
-# Jimmy B. - V3:27/05/2016
+# - V3:27/05/2016
 #
 # Variable fondamentale : entrée
 #
